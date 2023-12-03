@@ -4,7 +4,7 @@ filepath = 'README.md'
 
 setup(
     name='BFPCode',
-    version='1.1.0',
+    version='1.2.0',
     author='lidongxun967',
     author_email='debug967@outlook.com',
     description='使Brainfuck语言与Python集成',
@@ -22,6 +22,7 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
     
     ],
 )
