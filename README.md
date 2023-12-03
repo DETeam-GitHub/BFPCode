@@ -1,7 +1,7 @@
 # BFPCode
 [English](README_en.md)
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/BFPCode?style=for-the-badge&logo=python&label=%E6%94%AF%E6%8C%81%E7%9A%84%20Pyhon%20%E7%89%88%E6%9C%AC)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/BFPCode?style=for-the-badge&logo=python&label=%E6%94%AF%E6%8C%81%E7%9A%84%20Python%20%E7%89%88%E6%9C%AC)
 ![PyPI - Version](https://img.shields.io/pypi/v/BFPCode?style=for-the-badge&logo=python&label=%E5%BD%93%E5%89%8D%E7%89%88%E6%9C%AC)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/BFPCode?style=for-the-badge&logo=pypi&label=PYPI%20%E4%B8%8B%E8%BD%BD%E9%87%8F%20%2F%20%E6%9C%88)
 ![Pepy Total Downlods](https://img.shields.io/pepy/dt/BFPCode?style=for-the-badge&logo=pypi&label=PYPI%20%E6%80%BB%E4%B8%8B%E8%BD%BD%E9%87%8F)
