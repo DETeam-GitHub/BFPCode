@@ -1,4 +1,3 @@
-# 定义字符串变量 name
 name = "BFPCode"
 
 # 定义 Brainfuck 解释器函数 bfc，接受代码和可选参数 inl（初始化时的内存长度，默认为 128）
@@ -68,7 +67,9 @@ def bfc(code, inl=128):
                 return l
 
             i += 1
-
+            
+        return l
+    
     except:
         return
 
