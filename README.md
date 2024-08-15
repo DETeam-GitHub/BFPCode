@@ -21,6 +21,6 @@ BFPCode采用GNU Lesser General Public License v3 (LGPLv3)许可证。有关详�
 
 - 项目页面：[![Static Badge](https://img.shields.io/badge/GitHub-gleen)](https://github.com/GudupaoSpark/BFPCode)
 - 包发布页面：[![Static Badge](https://img.shields.io/badge/PYPI-Link-blue)](https://pypi.org/project/BFPCode)
-- 作者：DETeam的各位成员们，感谢他们！
+- 作者：GuduapoSpark
 
 ### 感谢使用BFPCode
