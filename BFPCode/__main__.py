@@ -1,7 +1,7 @@
 from BFPCode.BF import bfc
 
 if __name__ == "__main__":
-    c = bfc("")
+    c = [0 for i in range(128)]
     p = 0
     while True:
         code = input("BF> ")
@@ -17,4 +17,4 @@ exit    退出
 reset   重置缓存
 print   打印缓存
 help    帮助""")
-        c = bfc(code, c, p)
+        c,p = bfc(code, c, p)
