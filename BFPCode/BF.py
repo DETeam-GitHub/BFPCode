@@ -1,7 +1,7 @@
 name = "BFPCode"
 
 # 定义 Brainfuck 解释器函数 bfc，接受代码和可选参数 inl（初始化时的内存长度，默认为 128）
-def bfc(code, inl=128):
+def bfc(code, inl=128,p=0):
     try:
         # 初始化 Brainfuck 内存数组 bf，指针位置 p，计数器 i，和括号跟踪栈 stack
         bf = list(code)
@@ -9,7 +9,6 @@ def bfc(code, inl=128):
         if type(inl) == int:
             l = [0] * inl
         l = list(l)
-        p = 0
         i = 0
         stack = []  # 用于跟踪括号的栈
         ii = 0
@@ -71,8 +70,8 @@ def bfc(code, inl=128):
             
         if ii:
             print()
-        return l
+        return l,p
     
     except:
-        return
+        return ()
 

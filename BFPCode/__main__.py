@@ -1,8 +1,8 @@
 from BFPCode.BF import bfc
 
 if __name__ == "__main__":
-    code = input("BF> ")
-    c = bfc(code)
+    c = bfc("")
+    p = 0
     while True:
         code = input("BF> ")
         if code == "exit":
@@ -11,4 +11,10 @@ if __name__ == "__main__":
             c = bfc(code)
         if code == "print":
             print(c)
-        c = bfc(code, c)
+        if code == "help":
+            print("""
+exit     退出
+reset   重置缓存
+print   打印缓存
+help    帮助""")
+        c = bfc(code, c, p)

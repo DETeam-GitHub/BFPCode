@@ -4,9 +4,9 @@ filepath = 'README.md'
 
 setup(
     name='BFPCode',
-    version='1.5.0',
-    author='lidongxun967',
-    author_email='debug967@outlook.com',
+    version='1.6.0',
+    author='GudupaoSpark',
+    author_email='support@gudupao.top',
     description='使Brainfuck语言与Python集成',
     long_description=open(filepath, encoding='utf-8').read(),
     long_description_content_type='text/markdown',
