@@ -13,7 +13,7 @@ if __name__ == "__main__":
             print(c)
         if code == "help":
             print("""
-exit     退出
+exit    退出
 reset   重置缓存
 print   打印缓存
 help    帮助""")
